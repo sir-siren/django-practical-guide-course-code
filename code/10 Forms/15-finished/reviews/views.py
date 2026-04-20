@@ -1,4 +1,3 @@
-from reviews.models import Review
 from django.http import HttpResponseRedirect
 from django.shortcuts import render
 from django.views import View
@@ -12,9 +11,7 @@ class ReviewView(View):
     def get(self, request):
         form = ReviewForm()
 
-        return render(request, "reviews/review.html", {
-            "form": form
-        })
+        return render(request, "reviews/review.html", {"form": form})
 
     def post(self, request):
         form = ReviewForm(request.POST)
@@ -23,9 +20,7 @@ class ReviewView(View):
             form.save()
             return HttpResponseRedirect("/thank-you")
 
-        return render(request, "reviews/review.html", {
-            "form": form
-        })
+        return render(request, "reviews/review.html", {"form": form})
 
 
 def thank_you(request):

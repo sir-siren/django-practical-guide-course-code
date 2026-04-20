@@ -1,0 +1,148 @@
+[tasks]
+# ruff
+check = "uv run ruff check ."
+check-fix = "uv run ruff check . --fix"
+format = "uv run ruff format ."
+format-check = "uv run ruff format . --check"
+
+# 03 - URLs and Views
+dev-03-01 = "uv run 03-UrlsAndViews/01-adding-a-first-url-and-view/manage.py runserver"
+dev-03-02 = "uv run 03-UrlsAndViews/02-dynamic-path-segments/manage.py runserver"
+dev-03-03 = "uv run 03-UrlsAndViews/03-exploring-path-converters/manage.py runserver"
+dev-03-04 = "uv run 03-UrlsAndViews/04-redirecting/manage.py runserver"
+dev-03-05 = "uv run 03-UrlsAndViews/05-the-reverse-function/manage.py runserver"
+dev-03-06 = "uv run 03-UrlsAndViews/06-returning-html-response/manage.py runserver"
+dev-03-07 = "uv run 03-UrlsAndViews/07-practicing-urls-and-views/manage.py runserver"
+
+# 04 - Templates and Static Files
+dev-04-01 = "uv run '04-TemplatesAndStaticFiles/01-adding-and-registering-templates/manage.py' runserver"
+dev-04-02 = "uv run '04-TemplatesAndStaticFiles/02-rendering-templates/manage.py' runserver"
+dev-04-03 = "uv run '04-TemplatesAndStaticFiles/03-template-variables-interpolation/manage.py' runserver"
+dev-04-04 = "uv run '04-TemplatesAndStaticFiles/04-exercise-solution/manage.py' runserver"
+dev-04-05 = "uv run '04-TemplatesAndStaticFiles/05-filters/manage.py' runserver"
+dev-04-06 = "uv run '04-TemplatesAndStaticFiles/06-the-for-tag/manage.py' runserver"
+dev-04-07 = "uv run '04-TemplatesAndStaticFiles/07-url-tag-dynamic-urls/manage.py' runserver"
+dev-04-08 = "uv run '04-TemplatesAndStaticFiles/08-if-tag/manage.py' runserver"
+dev-04-09 = "uv run '04-TemplatesAndStaticFiles/09-template-inheritance/manage.py' runserver"
+dev-04-10 = "uv run '04-TemplatesAndStaticFiles/10-exercise-solution/manage.py' runserver"
+dev-04-11 = "uv run '04-TemplatesAndStaticFiles/11-includes/manage.py' runserver"
+dev-04-12 = "uv run '04-TemplatesAndStaticFiles/12-adding-static-files/manage.py' runserver"
+dev-04-13 = "uv run '04-TemplatesAndStaticFiles/13-adding-css-styling/manage.py' runserver"
+
+# 05 - Project Blog Basics
+dev-05-00 = "uv run '05-ProjectBlogBasics/00-starting-setup/manage.py' runserver"
+dev-05-01 = "uv run '05-ProjectBlogBasics/01-adding-urls-and-views/manage.py' runserver"
+dev-05-02 = "uv run '05-ProjectBlogBasics/02-adding-first-templates/manage.py' runserver"
+dev-05-03 = "uv run '05-ProjectBlogBasics/03-adding-template-content-and-static-files/manage.py' runserver"
+dev-05-04 = "uv run '05-ProjectBlogBasics/04-adding-images/manage.py' runserver"
+dev-05-05 = "uv run '05-ProjectBlogBasics/05-linking-the-pages/manage.py' runserver"
+dev-05-06 = "uv run '05-ProjectBlogBasics/06-adding-the-single-post-page/manage.py' runserver"
+dev-05-07 = "uv run '05-ProjectBlogBasics/07-adding-dummy-data/manage.py' runserver"
+dev-05-08 = "uv run '05-ProjectBlogBasics/08-adding-a-single-post-page/manage.py' runserver"
+dev-05-09 = "uv run '05-ProjectBlogBasics/09-adding-a-404-page/manage.py' runserver"
+
+# 06 - Data and Models
+dev-06-01 = "uv run '06-DataAndModels/01-first-model-and-migration/manage.py' runserver"
+dev-06-02 = "uv run '06-DataAndModels/02-updating-models/manage.py' runserver"
+dev-06-03 = "uv run '06-DataAndModels/03-preparing-templates/manage.py' runserver"
+dev-06-04 = "uv run '06-DataAndModels/04-rendering-queried-data/manage.py' runserver"
+dev-06-05 = "uv run '06-DataAndModels/05-rendering-the-details-page/manage.py' runserver"
+dev-06-06 = "uv run '06-DataAndModels/06-using-the-slug-and-updating-field-options/manage.py' runserver"
+dev-06-07 = "uv run '06-DataAndModels/07-aggregation-and-ordering/manage.py' runserver"
+
+# 07 - Admin
+dev-07-01 = "uv run '07-Admin/01-configuring-model-fields/manage.py' runserver"
+dev-07-02 = "uv run '07-Admin/02-configuring-the-admin-settings/manage.py' runserver"
+dev-07-03 = "uv run '07-Admin/03-more-config-options/manage.py' runserver"
+
+# 08 - Relationships
+dev-08-01 = "uv run '08-Relationships/01-adding-one-to-many/manage.py' runserver"
+dev-08-02 = "uv run '08-Relationships/02-managing-relations-in-admin/manage.py' runserver"
+dev-08-03 = "uv run '08-Relationships/03-adding-one-to-one/manage.py' runserver"
+dev-08-04 = "uv run '08-Relationships/04-managing-one-to-one-in-admin/manage.py' runserver"
+dev-08-05 = "uv run '08-Relationships/05-many-to-many/manage.py' runserver"
+
+# 09 - Project Blog Data-Models
+dev-09-01 = "uv run '09-ProjectBlogDataModels/01-added-models-and-relations/manage.py' runserver"
+dev-09-02 = "uv run '09-ProjectBlogDataModels/02-migrations-and-admin/manage.py' runserver"
+dev-09-03 = "uv run '09-ProjectBlogDataModels/03-configuring-admin-panel/manage.py' runserver"
+dev-09-04 = "uv run '09-ProjectBlogDataModels/04-fetching-posts-for-starting-page/manage.py' runserver"
+dev-09-05 = "uv run '09-ProjectBlogDataModels/05-all-posts-and-single-post-page/manage.py' runserver"
+dev-09-06 = "uv run '09-ProjectBlogDataModels/06-using-author-and-tags-data/manage.py' runserver"
+
+# 10 - Forms
+dev-10-00 = "uv run '10-Forms/00-starting-setup/manage.py' runserver"
+dev-10-01 = "uv run '10-Forms/01-adding-a-dummy-form/manage.py' runserver"
+dev-10-02 = "uv run '10-Forms/02-csrf-protection/manage.py' runserver"
+dev-10-03 = "uv run '10-Forms/03-handling-form-submission/manage.py' runserver"
+dev-10-04 = "uv run '10-Forms/04-manual-form-validation/manage.py' runserver"
+dev-10-05 = "uv run '10-Forms/05-using-the-django-form-class/manage.py' runserver"
+dev-10-06 = "uv run '10-Forms/06-customizing-the-form-controls/manage.py' runserver"
+dev-10-07 = "uv run '10-Forms/07-customizing-the-rendered-html/manage.py' runserver"
+dev-10-08 = "uv run '10-Forms/08-adding-styling/manage.py' runserver"
+dev-10-09 = "uv run '10-Forms/09-adding-more-form-controls/manage.py' runserver"
+dev-10-10 = "uv run '10-Forms/10-storing-form-data-in-a-database/manage.py' runserver"
+dev-10-11 = "uv run '10-Forms/11-introducing-modelforms/manage.py' runserver"
+dev-10-12 = "uv run '10-Forms/12-configuring-the-modelform/manage.py' runserver"
+dev-10-13 = "uv run '10-Forms/13-saving-data-with-a-modelform/manage.py' runserver"
+dev-10-14 = "uv run '10-Forms/14-class-based-views/manage.py' runserver"
+dev-10-15 = "uv run '10-Forms/15-finished/manage.py' runserver"
+
+# 11 - Class Views
+dev-11-01 = "uv run '11-ClassViews/01-adding-templates/manage.py' runserver"
+dev-11-02 = "uv run '11-ClassViews/02-the-templateview/manage.py' runserver"
+dev-11-03 = "uv run '11-ClassViews/03-showing-a-detail-template/manage.py' runserver"
+dev-11-04 = "uv run '11-ClassViews/04-the-listview/manage.py' runserver"
+dev-11-05 = "uv run '11-ClassViews/05-the-detailview/manage.py' runserver"
+dev-11-06 = "uv run '11-ClassViews/06-the-formview/manage.py' runserver"
+dev-11-07 = "uv run '11-ClassViews/07-the-createview/manage.py' runserver"
+
+# 12 - File Uploads
+dev-12-00 = "uv run '12-FileUploads/00-starting-setup/manage.py' runserver"
+dev-12-01 = "uv run '12-FileUploads/01-storing-uploaded-files-naive-approach/manage.py' runserver"
+dev-12-02 = "uv run '12-FileUploads/02-adding-a-form-with-a-filefield/manage.py' runserver"
+dev-12-03 = "uv run '12-FileUploads/03-using-models-for-file-storage/manage.py' runserver"
+dev-12-04 = "uv run '12-FileUploads/04-using-a-createview/manage.py' runserver"
+dev-12-05 = "uv run '12-FileUploads/05-serving-uploaded-files/manage.py' runserver"
+
+# 13 - Sessions
+dev-13-00 = "uv run '13-Sessions/00-starting-setup/manage.py' runserver"
+dev-13-01 = "uv run '13-Sessions/01-storing-data-in-sessions/manage.py' runserver"
+dev-13-02 = "uv run '13-Sessions/02-using-session-data/manage.py' runserver"
+dev-13-03 = "uv run '13-Sessions/03-safely-accessing-session-data/manage.py' runserver"
+
+# 14 - Project Blog Forms-Files-Sessions
+dev-14-01 = "uv run '14-ProjectBlogForms-Files-Sessions/01-serving-uploaded-files/manage.py' runserver"
+dev-14-02 = "uv run '14-ProjectBlogForms-Files-Sessions/02-converting-views-to-class-based/manage.py' runserver"
+dev-14-03 = "uv run '14-ProjectBlogForms-Files-Sessions/03-adding-a-comment-model/manage.py' runserver"
+dev-14-04 = "uv run '14-ProjectBlogForms-Files-Sessions/04-adding-a-comment-form/manage.py' runserver"
+dev-14-05 = "uv run '14-ProjectBlogForms-Files-Sessions/05-styling-the-comment-form/manage.py' runserver"
+dev-14-06 = "uv run '14-ProjectBlogForms-Files-Sessions/06-handling-comment-form-submission/manage.py' runserver"
+dev-14-07 = "uv run '14-ProjectBlogForms-Files-Sessions/07-comment-form-validation-styles/manage.py' runserver"
+dev-14-08 = "uv run '14-ProjectBlogForms-Files-Sessions/08-outputting-and-styling-comments/manage.py' runserver"
+dev-14-09 = "uv run '14-ProjectBlogForms-Files-Sessions/09-added-comments-to-admin/manage.py' runserver"
+dev-14-10 = "uv run '14-ProjectBlogForms-Files-Sessions/10-managing-read-later-via-sessions/manage.py' runserver"
+dev-14-11 = "uv run '14-ProjectBlogForms-Files-Sessions/11-finishing-the-read-later-feature/manage.py' runserver"
+
+# 15 - Deployment
+dev-15-01 = "uv run '15-Deployment/01-serving-static-files-with-django/manage.py' runserver"
+dev-15-02 = "uv run '15-Deployment/02-using-environment-variables/manage.py' runserver"
+dev-15-03 = "uv run '15-Deployment/03-deploying-with-elastic-beanstalk/manage.py' runserver"
+dev-15-04 = "uv run '15-Deployment/04-connecting-postgresql/manage.py' runserver"
+dev-15-05 = "uv run '15-Deployment/05-serving-static-files-and-uploads-via-s3/manage.py' runserver"
+
+# ZZ - Django Summary
+dev-zz-01 = "uv run 'ZZ-DjangoSummary/01-urls-and-views/manage.py' runserver"
+dev-zz-02 = "uv run 'ZZ-DjangoSummary/02-templates-static-files/manage.py' runserver"
+dev-zz-03 = "uv run 'ZZ-DjangoSummary/03-key-dtl-featurs/manage.py' runserver"
+dev-zz-04 = "uv run 'ZZ-DjangoSummary/04-adding-a-detail-page/manage.py' runserver"
+dev-zz-05 = "uv run 'ZZ-DjangoSummary/05-dynamic-urls-in-templates/manage.py' runserver"
+dev-zz-06 = "uv run 'ZZ-DjangoSummary/06-using-template-inheritance/manage.py' runserver"
+dev-zz-07 = "uv run 'ZZ-DjangoSummary/07-getting-started-with-models/manage.py' runserver"
+dev-zz-08 = "uv run 'ZZ-DjangoSummary/08-querying-data/manage.py' runserver"
+dev-zz-09 = "uv run 'ZZ-DjangoSummary/09-image-upload-and-serving/manage.py' runserver"
+dev-zz-10 = "uv run 'ZZ-DjangoSummary/10-relationship-one-to-many/manage.py' runserver"
+dev-zz-11 = "uv run 'ZZ-DjangoSummary/11-many-to-many/manage.py' runserver"
+dev-zz-12 = "uv run 'ZZ-DjangoSummary/12-more-model-fields-and-outputting-data/manage.py' runserver"
+dev-zz-13 = "uv run 'ZZ-DjangoSummary/13-creating-a-model-form/manage.py' runserver"
+dev-zz-14 = "uv run 'ZZ-DjangoSummary/14-finished/manage.py' runserver"
